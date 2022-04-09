@@ -24,8 +24,8 @@ public class binarySearch2 {
       int x = 33;
       int result = ob.binarySearch(array, x, 0, n - 1);
       if (result == -1)
-        System.out.println("x = 33 tidak ditemukan");
+        System.out.println("elemen tidak ditemukan");
       else
-        System.out.println("x = 33 ditemukan pada index " + result);
+        System.out.println("elemen ditemukan pada index " + result);
     }
   }

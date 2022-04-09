@@ -16,8 +16,8 @@ public class linear2 {
     int result = linearSearch(array, x);
   
     if (result == -1)
-      System.out.print("X = 9 tidak ditemukan");
+      System.out.print("elemen tidak ditemukan");
     else
-      System.out.print("X = 9 ditemukan pada index: " + result);
+      System.out.print("elemen ditemukan pada index: " + result);
     }
   }
